@@ -1,0 +1,9 @@
+---
+apiVersion: packaging.carvel.dev/v1alpha1
+kind: PackageRepository
+metadata:
+  name: neptunus-package-repository
+spec:
+  fetch:
+    imgpkgBundle:
+      image: ghcr.io/neptunus-platform/package-repository:0.1.0 

@@ -1,0 +1,7 @@
+---
+apiVersion: imgpkg.carvel.dev/v1alpha1
+images:
+- annotations:
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-tekton@sha256:8a678ecdcde4700abccb5ae0349827ed933ef50d184dbaa655ab7ae3ef7dbcc1
+  image: ghcr.io/neptunus-platform/package-for-tekton@sha256:8a678ecdcde4700abccb5ae0349827ed933ef50d184dbaa655ab7ae3ef7dbcc1
+kind: ImagesLock

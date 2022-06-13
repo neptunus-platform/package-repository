@@ -1,0 +1,14 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: PackageMetadata
+metadata:
+  name: tekton.neptunus.thomasvitale.com
+spec:
+  displayName: "tekton"
+  longDescription: "A cloud native solution for building CI/CD pipelines."
+  shortDescription: "CI/CD tool."
+  providerName: Neptunus Platform
+  maintainers:
+    - name: Thomas Vitale
+  categories:
+    - ci/cd
+    - neptunus
