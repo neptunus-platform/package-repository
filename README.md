@@ -2,13 +2,18 @@
 
 A repository of packages based on Carvel that can be installed on Kubernetes.
 
+## Components
+
+* knative-eventing
+* tekton
+
 ## Installation
 
 You can install the Neptunus repository using `kctrl`:
 
    ```shell
    kctrl package repository add -r neptunus-package-repository \ 
-     --url ghcr.io/neptunus-platform/package-repository:0.1.0
+     --url ghcr.io/neptunus-platform/package-repository:0.2.0
    ```
 
 ## Documentation

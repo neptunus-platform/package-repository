@@ -1,0 +1,25 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: Package
+metadata:
+  name: knative-eventing.neptunus.thomasvitale.com.1.5.1
+spec:
+  refName: knative-eventing.neptunus.thomasvitale.com
+  version: 1.5.1
+  releaseNotes: "Knative Eventing 1.5.1 https://github.com/knative/eventing/releases/tag/knative-v1.5.1"
+  licenses:
+    - "Apache 2.0"
+  template:
+    spec:
+      fetch:
+        - imgpkgBundle:
+            image: ghcr.io/neptunus-platform/package-for-knative-eventing@sha256:6c73e29933f7659cde84ffaedbeb0ab26f8df59f30f2a297bd1ce41478d8fb88
+      template:
+        - ytt:
+            paths:
+              - config/
+        - kbld:
+            paths:
+              - "-"
+              - .imgpkg/images.yml
+      deploy:
+      - kapp: {}

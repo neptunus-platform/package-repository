@@ -1,0 +1,14 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: PackageMetadata
+metadata:
+  name: knative-eventing.neptunus.thomasvitale.com
+spec:
+  displayName: "knative-eventing"
+  longDescription: "Knative Eventing provides tools for routing events from event producers to sinks, enabling developers to use an event-driven architecture with their applications."
+  shortDescription: "Toolkit to build event-driven architectures on Kubernetes."
+  providerName: Neptunus Platform
+  maintainers:
+    - name: Thomas Vitale
+  categories:
+    - eventing
+    - cloudevents

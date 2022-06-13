@@ -2,6 +2,12 @@
 apiVersion: imgpkg.carvel.dev/v1alpha1
 images:
 - annotations:
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-knative-eventing@sha256:6c73e29933f7659cde84ffaedbeb0ab26f8df59f30f2a297bd1ce41478d8fb88
+  image: ghcr.io/neptunus-platform/package-for-knative-eventing@sha256:6c73e29933f7659cde84ffaedbeb0ab26f8df59f30f2a297bd1ce41478d8fb88
+- annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-tekton@sha256:8a678ecdcde4700abccb5ae0349827ed933ef50d184dbaa655ab7ae3ef7dbcc1
+    kbld.carvel.dev/origins: |
+      - preresolved:
+          url: ghcr.io/neptunus-platform/package-for-tekton@sha256:8a678ecdcde4700abccb5ae0349827ed933ef50d184dbaa655ab7ae3ef7dbcc1
   image: ghcr.io/neptunus-platform/package-for-tekton@sha256:8a678ecdcde4700abccb5ae0349827ed933ef50d184dbaa655ab7ae3ef7dbcc1
 kind: ImagesLock
