@@ -1,0 +1,25 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: Package
+metadata:
+  name: argocd.neptunus.thomasvitale.com.2.4.0
+spec:
+  refName: argocd.neptunus.thomasvitale.com
+  version: 2.4.0
+  releaseNotes: "Argo CD 2.4.0 https://github.com/argoproj/argo-cd/releases/tag/v2.4.0"
+  licenses:
+    - "Apache 2.0"
+  template:
+    spec:
+      fetch:
+        - imgpkgBundle:
+            image: ghcr.io/neptunus-platform/package-for-argocd@sha256:ddfbf3173aed14f22a5295104d3e86cf8e9800755c13753f6fafb5074e8a9d34
+      template:
+        - ytt:
+            paths:
+              - config/
+        - kbld:
+            paths:
+              - "-"
+              - .imgpkg/images.yml
+      deploy:
+      - kapp: {}
