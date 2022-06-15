@@ -1,18 +1,18 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  name: cartographer-catalog.neptunus.thomasvitale.com.0.0.1
+  name: cartographer-catalog.neptunus.thomasvitale.com.0.1.0
 spec:
   refName: cartographer-catalog.neptunus.thomasvitale.com
-  version: 0.0.1
-  releaseNotes: "Initial supply chains"
+  version: 0.1.0
+  releaseNotes: "Supply chains with source, test, image, and knative"
   licenses:
     - "Apache 2.0"
   template:
     spec:
       fetch:
         - imgpkgBundle:
-            image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:f24e29fb0b70af69c37e8a09b65bf7dcee5f0afa33d5bab52a38665f492c445f
+            image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
       template:
         - ytt:
             paths:

@@ -2,8 +2,14 @@
 apiVersion: imgpkg.carvel.dev/v1alpha1
 images:
 - annotations:
-    kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-catalog@sha256:f24e29fb0b70af69c37e8a09b65bf7dcee5f0afa33d5bab52a38665f492c445f
-  image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:f24e29fb0b70af69c37e8a09b65bf7dcee5f0afa33d5bab52a38665f492c445f
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-catalog@sha256:a0fe4937fa5ec4aac3ff0d71eba0f8d5889a3f7c0cb9d5d891eaeda2a079f2f2
+    kbld.carvel.dev/origins: |
+      - preresolved:
+          url: ghcr.io/neptunus-platform/cartographer-catalog@sha256:a0fe4937fa5ec4aac3ff0d71eba0f8d5889a3f7c0cb9d5d891eaeda2a079f2f2
+  image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:a0fe4937fa5ec4aac3ff0d71eba0f8d5889a3f7c0cb9d5d891eaeda2a079f2f2
+- annotations:
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
+  image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
 - annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-argocd@sha256:ddfbf3173aed14f22a5295104d3e86cf8e9800755c13753f6fafb5074e8a9d34
     kbld.carvel.dev/origins: |
