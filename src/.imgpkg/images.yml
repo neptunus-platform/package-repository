@@ -2,7 +2,13 @@
 apiVersion: imgpkg.carvel.dev/v1alpha1
 images:
 - annotations:
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-catalog@sha256:f24e29fb0b70af69c37e8a09b65bf7dcee5f0afa33d5bab52a38665f492c445f
+  image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:f24e29fb0b70af69c37e8a09b65bf7dcee5f0afa33d5bab52a38665f492c445f
+- annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-argocd@sha256:ddfbf3173aed14f22a5295104d3e86cf8e9800755c13753f6fafb5074e8a9d34
+    kbld.carvel.dev/origins: |
+      - preresolved:
+          url: ghcr.io/neptunus-platform/package-for-argocd@sha256:ddfbf3173aed14f22a5295104d3e86cf8e9800755c13753f6fafb5074e8a9d34
   image: ghcr.io/neptunus-platform/package-for-argocd@sha256:ddfbf3173aed14f22a5295104d3e86cf8e9800755c13753f6fafb5074e8a9d34
 - annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-knative-eventing@sha256:6c73e29933f7659cde84ffaedbeb0ab26f8df59f30f2a297bd1ce41478d8fb88

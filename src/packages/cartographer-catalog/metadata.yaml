@@ -1,0 +1,14 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: PackageMetadata
+metadata:
+  name: cartographer-catalog.neptunus.thomasvitale.com
+spec:
+  displayName: "Cartographer Catalog"
+  longDescription: "A catalog of out-of-the-box supply chains to design your CI/CD pipelines."
+  shortDescription: "Catalog of supply chains for CI/CD."
+  providerName: Neptunus Platform
+  maintainers:
+    - name: Thomas Vitale
+  categories:
+    - ci/cd
+    - gitops
