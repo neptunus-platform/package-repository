@@ -6,4 +6,4 @@ metadata:
 spec:
   fetch:
     imgpkgBundle:
-      image: ghcr.io/neptunus-platform/package-repository:0.5.0
+      image: ghcr.io/neptunus-platform/package-repository:0.5.1

@@ -12,7 +12,7 @@ spec:
     spec:
       fetch:
         - imgpkgBundle:
-            image: ghcr.io/neptunus-platform/package-for-knative-eventing@sha256:6c73e29933f7659cde84ffaedbeb0ab26f8df59f30f2a297bd1ce41478d8fb88
+            image: ghcr.io/neptunus-platform/package-for-knative-eventing:sha256-c2793e24df5cc75f12dbf47ec8f9e1dbf904ddd284dd5f7e44a275cc26f1b20e.imgpkg
       template:
         - ytt:
             paths:
