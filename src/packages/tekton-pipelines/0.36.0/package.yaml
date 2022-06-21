@@ -1,18 +1,18 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  name: tekton.neptunus.thomasvitale.com.0.36.0
+  name: tekton-pipelines.neptunus.thomasvitale.com.0.36.0
 spec:
-  refName: tekton.neptunus.thomasvitale.com
+  refName: tekton-pipelines.neptunus.thomasvitale.com
   version: 0.36.0
-  releaseNotes: "Tekton 0.36.0 https://github.com/tektoncd/pipeline/releases/tag/v0.36.0"
+  releaseNotes: "Tekton Pipelines 0.36.0 https://github.com/tektoncd/pipeline/releases/tag/v0.36.0"
   licenses:
     - "Apache 2.0"
   template:
     spec:
       fetch:
         - imgpkgBundle:
-            image: ghcr.io/neptunus-platform/package-for-tekton@sha256:8a678ecdcde4700abccb5ae0349827ed933ef50d184dbaa655ab7ae3ef7dbcc1
+            image: ghcr.io/neptunus-platform/package-for-tekton-pipelines:sha256-22fe15f0a01ee4147aec7591f788e7b0d9deba394570f3c82f8867e13de032f7.imgpkg
       template:
         - ytt:
             paths:
