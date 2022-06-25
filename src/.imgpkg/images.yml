@@ -8,8 +8,8 @@ images:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
   image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
 - annotations:
-    kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-argocd@sha256:ddfbf3173aed14f22a5295104d3e86cf8e9800755c13753f6fafb5074e8a9d34
-  image: ghcr.io/neptunus-platform/package-for-argocd@sha256:ddfbf3173aed14f22a5295104d3e86cf8e9800755c13753f6fafb5074e8a9d34
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-argocd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
+  image: ghcr.io/neptunus-platform/package-for-argocd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
 - annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-knative-eventing:sha256-b7b9001c8a0e507e7b72cafd069adee1f4853fef1f532dbe6b53019b568a7288.imgpkg
     kbld.carvel.dev/origins: |
@@ -24,4 +24,22 @@ images:
           tag: sha256-22fe15f0a01ee4147aec7591f788e7b0d9deba394570f3c82f8867e13de032f7.imgpkg
           url: ghcr.io/neptunus-platform/package-for-tekton-pipelines:sha256-22fe15f0a01ee4147aec7591f788e7b0d9deba394570f3c82f8867e13de032f7.imgpkg
   image: ghcr.io/neptunus-platform/package-for-tekton-pipelines@sha256:22fe15f0a01ee4147aec7591f788e7b0d9deba394570f3c82f8867e13de032f7
+- annotations:
+    kbld.carvel.dev/id: index.docker.io/projectcartographer/package-for-cartographer@sha256:cf0148915c04dd6a6480f30bb7cc42a98e00d7ba34297e6e9cc5b9afc2ebb2bb
+  image: index.docker.io/projectcartographer/package-for-cartographer@sha256:cf0148915c04dd6a6480f30bb7cc42a98e00d7ba34297e6e9cc5b9afc2ebb2bb
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/cert-manager@sha256:fbecd3ac1915ac8244e5522526fe6039dfb03d78c6b13d76384e78ee077f59fa
+  image: projects.registry.vmware.com/tce/cert-manager@sha256:fbecd3ac1915ac8244e5522526fe6039dfb03d78c6b13d76384e78ee077f59fa
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/contour@sha256:0128c3458d57cd637c198b3a6377bb1eca6e23301f27710ac29d9d0ee1c5bd09
+  image: projects.registry.vmware.com/tce/contour@sha256:0128c3458d57cd637c198b3a6377bb1eca6e23301f27710ac29d9d0ee1c5bd09
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/knative-serving@sha256:01dd43ed368cb42985204916aacd64c9ef0b159b3b7436d4de8076d1134bf4b6
+  image: projects.registry.vmware.com/tce/knative-serving@sha256:01dd43ed368cb42985204916aacd64c9ef0b159b3b7436d4de8076d1134bf4b6
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/metrics-server@sha256:4fa580c9b185d44f39847cd2347c8110b3a38d775e674ce77bc3b2569067f4c0
+  image: projects.registry.vmware.com/tce/metrics-server@sha256:4fa580c9b185d44f39847cd2347c8110b3a38d775e674ce77bc3b2569067f4c0
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/secretgen-controller@sha256:d9604516a77a6cb6e98fdca3a0162ffb8382fd63dc958a8789538acc65d9bb9d
+  image: projects.registry.vmware.com/tce/secretgen-controller@sha256:d9604516a77a6cb6e98fdca3a0162ffb8382fd63dc958a8789538acc65d9bb9d
 kind: ImagesLock

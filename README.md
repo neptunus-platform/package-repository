@@ -4,10 +4,21 @@ A repository of packages based on Carvel that can be installed on Kubernetes.
 
 ## Components
 
-* argocd
+This repository contains the following packages from the Neptunus Platform project:
+
+* argo-cd
 * cartographer-catalog
 * knative-eventing
 * tekton-pipelines
+
+It also includes the following packages from the [Tanzu Community Edition](https://tanzucommunityedition.io) project:
+
+* cartographer
+* cert-manager
+* contour
+* knative-serving
+* metrics-server
+* secretgen-controller
 
 ## Prerequisites
 
@@ -28,7 +39,7 @@ You can install the Neptunus repository using `kctrl`:
 
    ```shell
    kctrl package repository add -r neptunus-package-repository \ 
-     --url ghcr.io/neptunus-platform/package-repository:0.5.3
+     --url ghcr.io/neptunus-platform/package-repository:0.6.0
    ```
 
 ## Documentation

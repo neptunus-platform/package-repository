@@ -1,7 +1,7 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: PackageMetadata
 metadata:
-  name: argocd.neptunus.thomasvitale.com
+  name: argo-cd.neptunus.thomasvitale.com
 spec:
   displayName: "Argo CD"
   longDescription: "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes."
