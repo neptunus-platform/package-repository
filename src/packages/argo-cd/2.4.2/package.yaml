@@ -1,7 +1,7 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  name: argo-cd.neptunus.thomasvitale.com.2.4.0
+  name: argo-cd.neptunus.thomasvitale.com.2.4.2
 spec:
   refName: argo-cd.neptunus.thomasvitale.com
   version: 2.4.2
