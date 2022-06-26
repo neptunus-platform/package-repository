@@ -1,0 +1,13 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: PackageMetadata
+metadata:
+  name: application-platform.neptunus.thomasvitale.com
+spec:
+  displayName: "Application Platform"
+  longDescription: "Provides an opinionated Kubernetes-native application platform based on OSS tools."
+  shortDescription: "Kubernetes-native application platform."
+  providerName: Neptunus Platform
+  maintainers:
+    - name: Thomas Vitale
+  categories:
+    - platform

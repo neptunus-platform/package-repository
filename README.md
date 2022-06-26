@@ -6,8 +6,12 @@ A repository of packages based on Carvel that can be installed on Kubernetes.
 
 This repository contains the following packages from the Neptunus Platform project:
 
+* [application-platform](https://github.com/neptunus-platform/application-platform)
 * [argo-cd](https://github.com/neptunus-platform/package-for-argo-cd)
-* cartographer-catalog
+* cartographer-blueprints (soon)
+* cartographer-delivery-basic (soon)
+* cartographer-supply-chain-basic (soon)
+* cartographer-supply-chain-testing (soon)
 * [knative-eventing](https://github.com/neptunus-platform/package-for-knative-eventing)
 * [tekton-pipelines](https://github.com/neptunus-platform/package-for-tekton-pipelines)
 
@@ -25,12 +29,12 @@ It also includes the following packages from the [Tanzu Community Edition](https
 
 ## Prerequisites
 
-Working with Carvel packages require [kapp-controller](https://carvel.dev/kapp-controller/) installed
+Working with Carvel packages requires [kapp-controller](https://carvel.dev/kapp-controller/) installed
 in your Kubernetes cluster. If you're using [Tanzu Community Edition](https://tanzucommunityedition.io),
 kapp-controller is provided out-of-the-box. Otherwise, you can install it as follows.
 
   ```shell
-   kapp deploy -a kapp-controller -f https://github.com/vmware-tanzu/carvel-kapp-controller/releases/download/latest/release.yml --yes
+   kapp deploy -a kapp-controller -f https://github.com/vmware-tanzu/carvel-kapp-controller/releases/download/v0.38.3/release.yml --yes
    ```
 
 You'll also need the [`kctrl`](https://carvel.dev/kapp-controller/docs/latest/install/#installing-kapp-controller-cli-kctrl)
@@ -41,8 +45,8 @@ CLI to manage Carvel packages in a convenient way.
 You can install the Neptunus repository using `kctrl`:
 
    ```shell
-   kctrl package repository add -r neptunus-package-repository \ 
-     --url ghcr.io/neptunus-platform/package-repository:0.6.1
+   kctrl package repository add -r neptunus-package-repository \
+     --url ghcr.io/neptunus-platform/package-repository:0.6.2
    ```
 
 ## Documentation

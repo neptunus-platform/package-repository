@@ -2,8 +2,8 @@
 apiVersion: imgpkg.carvel.dev/v1alpha1
 images:
 - annotations:
-    kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-catalog@sha256:a0fe4937fa5ec4aac3ff0d71eba0f8d5889a3f7c0cb9d5d891eaeda2a079f2f2
-  image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:a0fe4937fa5ec4aac3ff0d71eba0f8d5889a3f7c0cb9d5d891eaeda2a079f2f2
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:873d259a29f99ce57eac0a8dda8c02475b64e8641e408c6c3f40ca54b57ef0d6
+  image: ghcr.io/neptunus-platform/application-platform@sha256:873d259a29f99ce57eac0a8dda8c02475b64e8641e408c6c3f40ca54b57ef0d6
 - annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
   image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
@@ -11,28 +11,33 @@ images:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-argo-cd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
   image: ghcr.io/neptunus-platform/package-for-argo-cd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
 - annotations:
-    kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-knative-eventing:sha256-b7b9001c8a0e507e7b72cafd069adee1f4853fef1f532dbe6b53019b568a7288.imgpkg
-    kbld.carvel.dev/origins: |
-      - resolved:
-          tag: sha256-b7b9001c8a0e507e7b72cafd069adee1f4853fef1f532dbe6b53019b568a7288.imgpkg
-          url: ghcr.io/neptunus-platform/package-for-knative-eventing:sha256-b7b9001c8a0e507e7b72cafd069adee1f4853fef1f532dbe6b53019b568a7288.imgpkg
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-knative-eventing@sha256:b7b9001c8a0e507e7b72cafd069adee1f4853fef1f532dbe6b53019b568a7288
   image: ghcr.io/neptunus-platform/package-for-knative-eventing@sha256:b7b9001c8a0e507e7b72cafd069adee1f4853fef1f532dbe6b53019b568a7288
 - annotations:
-    kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-tekton-pipelines:sha256-22fe15f0a01ee4147aec7591f788e7b0d9deba394570f3c82f8867e13de032f7.imgpkg
-    kbld.carvel.dev/origins: |
-      - resolved:
-          tag: sha256-22fe15f0a01ee4147aec7591f788e7b0d9deba394570f3c82f8867e13de032f7.imgpkg
-          url: ghcr.io/neptunus-platform/package-for-tekton-pipelines:sha256-22fe15f0a01ee4147aec7591f788e7b0d9deba394570f3c82f8867e13de032f7.imgpkg
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-tekton-pipelines@sha256:22fe15f0a01ee4147aec7591f788e7b0d9deba394570f3c82f8867e13de032f7
   image: ghcr.io/neptunus-platform/package-for-tekton-pipelines@sha256:22fe15f0a01ee4147aec7591f788e7b0d9deba394570f3c82f8867e13de032f7
 - annotations:
     kbld.carvel.dev/id: index.docker.io/projectcartographer/package-for-cartographer@sha256:cf0148915c04dd6a6480f30bb7cc42a98e00d7ba34297e6e9cc5b9afc2ebb2bb
   image: index.docker.io/projectcartographer/package-for-cartographer@sha256:cf0148915c04dd6a6480f30bb7cc42a98e00d7ba34297e6e9cc5b9afc2ebb2bb
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/kpack/dependencies@sha256:fd2536e4a9e785fa2f72bcb9b13c7d7b1353536e2999c2ea04a4014169bd8fab
+  image: projects.registry.vmware.com/kpack/dependencies@sha256:fd2536e4a9e785fa2f72bcb9b13c7d7b1353536e2999c2ea04a4014169bd8fab
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/kpack/release@sha256:04275be6d0fd720c0913dbbd9c6e6f6983c4b24a48a9b11666abf729a8d82759
+  image: projects.registry.vmware.com/kpack/release@sha256:04275be6d0fd720c0913dbbd9c6e6f6983c4b24a48a9b11666abf729a8d82759
 - annotations:
     kbld.carvel.dev/id: projects.registry.vmware.com/tce/cert-manager@sha256:fbecd3ac1915ac8244e5522526fe6039dfb03d78c6b13d76384e78ee077f59fa
   image: projects.registry.vmware.com/tce/cert-manager@sha256:fbecd3ac1915ac8244e5522526fe6039dfb03d78c6b13d76384e78ee077f59fa
 - annotations:
     kbld.carvel.dev/id: projects.registry.vmware.com/tce/contour@sha256:0128c3458d57cd637c198b3a6377bb1eca6e23301f27710ac29d9d0ee1c5bd09
   image: projects.registry.vmware.com/tce/contour@sha256:0128c3458d57cd637c198b3a6377bb1eca6e23301f27710ac29d9d0ee1c5bd09
+- annotations:
+    kbld.carvel.dev/id: projects.registry.vmware.com/tce/fluxcd-source-controller-bundle:0.24.4-update.1
+    kbld.carvel.dev/origins: |
+      - resolved:
+          tag: 0.24.4-update.1
+          url: projects.registry.vmware.com/tce/fluxcd-source-controller-bundle:0.24.4-update.1
+  image: projects.registry.vmware.com/tce/fluxcd-source-controller-bundle@sha256:774ab542488edbd77ab9d20a469dcd6c487196ebad9fcffb8b91acdf9b70a2cc
 - annotations:
     kbld.carvel.dev/id: projects.registry.vmware.com/tce/knative-serving@sha256:01dd43ed368cb42985204916aacd64c9ef0b159b3b7436d4de8076d1134bf4b6
   image: projects.registry.vmware.com/tce/knative-serving@sha256:01dd43ed368cb42985204916aacd64c9ef0b159b3b7436d4de8076d1134bf4b6
