@@ -16,7 +16,10 @@ It also includes the following packages from the [Tanzu Community Edition](https
 * [cartographer](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/cartographer)
 * [cert-manager](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/cert-manager)
 * [contour](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/contour)
+* [fluxcd-source-controller](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/fluxcd-source-controller)
 * [knative-serving](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/knative-serving)
+* [kpack](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/kpack)
+* [kpack-dependencies](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/kpack-dependencies)
 * [metrics-server](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/metrics-server)
 * [secretgen-controller](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/secretgen-controller)
 

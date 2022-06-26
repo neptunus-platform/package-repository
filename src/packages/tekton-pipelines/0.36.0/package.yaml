@@ -12,7 +12,7 @@ spec:
     spec:
       fetch:
         - imgpkgBundle:
-            image: ghcr.io/neptunus-platform/package-for-tekton-pipelines:sha256-22fe15f0a01ee4147aec7591f788e7b0d9deba394570f3c82f8867e13de032f7.imgpkg
+            image: ghcr.io/neptunus-platform/package-for-tekton-pipelines@sha256:22fe15f0a01ee4147aec7591f788e7b0d9deba394570f3c82f8867e13de032f7
       template:
         - ytt:
             paths:

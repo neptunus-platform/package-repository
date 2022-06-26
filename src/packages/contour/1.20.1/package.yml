@@ -5,7 +5,7 @@ metadata:
 spec:
   refName: contour.neptunus.thomasvitale.com
   version: 1.20.1
-  releaseNotes: "contour 1.20.1 https://github.com/projectcontour/contour/releases/tag/v1.20.1"
+  releaseNotes: "Contour 1.20.1 https://github.com/projectcontour/contour/releases/tag/v1.20.1"
   releasedAt: 2022-02-24T00:00:00Z
   licenses:
     - "Apache 2.0"

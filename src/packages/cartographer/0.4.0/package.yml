@@ -5,7 +5,7 @@ metadata:
 spec:
   refName: cartographer.neptunus.thomasvitale.com
   version: 0.4.0
-  releaseNotes: https://github.com/vmware-tanzu/package-for-cartographer/releases/tag/0.4.0
+  releaseNotes: "Cartographer 0.4.0 https://github.com/vmware-tanzu/package-for-cartographer/releases/tag/0.4.0"
   releasedAt: "2022-06-15T18:44:10Z"
   template:
     spec:
