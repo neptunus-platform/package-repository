@@ -6,19 +6,19 @@ A repository of packages based on Carvel that can be installed on Kubernetes.
 
 This repository contains the following packages from the Neptunus Platform project:
 
-* argo-cd
+* [argo-cd](https://github.com/neptunus-platform/package-for-argo-cd)
 * cartographer-catalog
-* knative-eventing
-* tekton-pipelines
+* [knative-eventing](https://github.com/neptunus-platform/package-for-knative-eventing)
+* [tekton-pipelines](https://github.com/neptunus-platform/package-for-tekton-pipelines)
 
 It also includes the following packages from the [Tanzu Community Edition](https://tanzucommunityedition.io) project:
 
-* cartographer
-* cert-manager
-* contour
-* knative-serving
-* metrics-server
-* secretgen-controller
+* [cartographer](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/cartographer)
+* [cert-manager](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/cert-manager)
+* [contour](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/contour)
+* [knative-serving](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/knative-serving)
+* [metrics-server](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/metrics-server)
+* [secretgen-controller](https://github.com/vmware-tanzu/community-edition/tree/main/addons/packages/secretgen-controller)
 
 ## Prerequisites
 
@@ -39,7 +39,7 @@ You can install the Neptunus repository using `kctrl`:
 
    ```shell
    kctrl package repository add -r neptunus-package-repository \ 
-     --url ghcr.io/neptunus-platform/package-repository:0.6.0
+     --url ghcr.io/neptunus-platform/package-repository:0.6.1
    ```
 
 ## Documentation

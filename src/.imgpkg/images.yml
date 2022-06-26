@@ -8,8 +8,8 @@ images:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
   image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
 - annotations:
-    kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-argocd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
-  image: ghcr.io/neptunus-platform/package-for-argocd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-argo-cd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
+  image: ghcr.io/neptunus-platform/package-for-argo-cd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
 - annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-knative-eventing:sha256-b7b9001c8a0e507e7b72cafd069adee1f4853fef1f532dbe6b53019b568a7288.imgpkg
     kbld.carvel.dev/origins: |

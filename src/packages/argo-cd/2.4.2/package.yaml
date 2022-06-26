@@ -13,7 +13,7 @@ spec:
     spec:
       fetch:
         - imgpkgBundle:
-            image: ghcr.io/neptunus-platform/package-for-argocd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
+            image: ghcr.io/neptunus-platform/package-for-argo-cd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
       template:
         - ytt:
             paths:
