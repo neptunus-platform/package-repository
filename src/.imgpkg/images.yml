@@ -2,8 +2,8 @@
 apiVersion: imgpkg.carvel.dev/v1alpha1
 images:
 - annotations:
-    kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:873d259a29f99ce57eac0a8dda8c02475b64e8641e408c6c3f40ca54b57ef0d6
-  image: ghcr.io/neptunus-platform/application-platform@sha256:873d259a29f99ce57eac0a8dda8c02475b64e8641e408c6c3f40ca54b57ef0d6
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:7b6e8714d1136ce54f0af037ce913dd9c4a19113f889587f5a4be8cd5e398d99
+  image: ghcr.io/neptunus-platform/application-platform@sha256:7b6e8714d1136ce54f0af037ce913dd9c4a19113f889587f5a4be8cd5e398d99
 - annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
   image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
