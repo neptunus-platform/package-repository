@@ -8,6 +8,9 @@ images:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
   image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
 - annotations:
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/namespace-setup@sha256:3791049579b1db09da31be74c942662cd0aaa3e3759aba716985581e1d43b26f
+  image: ghcr.io/neptunus-platform/namespace-setup@sha256:3791049579b1db09da31be74c942662cd0aaa3e3759aba716985581e1d43b26f
+- annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-argo-cd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
   image: ghcr.io/neptunus-platform/package-for-argo-cd@sha256:5d31235aab34757b65e69b59e20bd3f3d72f183741e3ed0bd244a2097deb28b0
 - annotations:

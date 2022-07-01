@@ -1,0 +1,14 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: PackageMetadata
+metadata:
+  name: namespace-setup.neptunus.thomasvitale.com
+spec:
+  displayName: "namespace-setup"
+  longDescription: "A package for setting up namespaces with the necessary RBAC and Secrets to work with the platform."
+  shortDescription: "Namespace setup for using the platform."
+  providerName: Neptunus Platform
+  maintainers:
+    - name: Thomas Vitale
+  categories:
+    - "environment"
+    - "rbac"

@@ -13,6 +13,7 @@ This repository contains the following packages from the Neptunus Platform proje
 * cartographer-supply-chain-basic (soon)
 * cartographer-supply-chain-testing (soon)
 * [knative-eventing](https://github.com/neptunus-platform/package-for-knative-eventing)
+* [namespace-setup](https://github.com/neptunus-platform/namespace-setup)
 * [tekton-pipelines](https://github.com/neptunus-platform/package-for-tekton-pipelines)
 
 It also includes the following packages from the [Tanzu Community Edition](https://tanzucommunityedition.io) project:
@@ -46,9 +47,15 @@ You can install the Neptunus repository using `kctrl`:
 
    ```shell
    kctrl package repository add -r neptunus-package-repository \
-     --url ghcr.io/neptunus-platform/package-repository:0.6.2
+     --url ghcr.io/neptunus-platform/package-repository:0.6.3
    ```
 
 ## Documentation
 
 You can find more documentation about Carvel package management at [carvel.dev](https://carvel.dev/kapp-controller/docs/latest/packaging/).
+
+## References and inspiration
+
+* [Kubernetes native package management with Carvel](https://carvel.dev/kapp-controller/docs/latest/packaging/)
+* [Tanzu Community Edition, an open-source Kubernetes platform](https://tanzucommunityedition.io)
+* [An example of package repository for installing the Tanzu Application Platform OSS stack](https://github.com/vrabbi/tap-oss)
