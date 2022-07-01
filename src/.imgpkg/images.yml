@@ -5,8 +5,14 @@ images:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:7b6e8714d1136ce54f0af037ce913dd9c4a19113f889587f5a4be8cd5e398d99
   image: ghcr.io/neptunus-platform/application-platform@sha256:7b6e8714d1136ce54f0af037ce913dd9c4a19113f889587f5a4be8cd5e398d99
 - annotations:
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-blueprints@sha256:59723391732edcd048603370d5c57ebd427a6629fd28b8c1cf8ca84dbd1b2b08
+  image: ghcr.io/neptunus-platform/cartographer-blueprints@sha256:59723391732edcd048603370d5c57ebd427a6629fd28b8c1cf8ca84dbd1b2b08
+- annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
   image: ghcr.io/neptunus-platform/cartographer-catalog@sha256:c214ba3f55e0884e6baef7fbdc8591f6d0c9a988491280bacca9b4543f6e8334
+- annotations:
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/cartographer-supply-chain-basic@sha256:24f2f04fde44c2691f08618f99aa36bb81b9d800be9e2b510446eaedf9e1eca5
+  image: ghcr.io/neptunus-platform/cartographer-supply-chain-basic@sha256:24f2f04fde44c2691f08618f99aa36bb81b9d800be9e2b510446eaedf9e1eca5
 - annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/namespace-setup@sha256:3791049579b1db09da31be74c942662cd0aaa3e3759aba716985581e1d43b26f
   image: ghcr.io/neptunus-platform/namespace-setup@sha256:3791049579b1db09da31be74c942662cd0aaa3e3759aba716985581e1d43b26f

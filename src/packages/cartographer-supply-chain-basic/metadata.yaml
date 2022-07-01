@@ -1,0 +1,13 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: PackageMetadata
+metadata:
+  name: cartographer-supply-chain-basic.neptunus.thomasvitale.com
+spec:
+  displayName: "cartographer-supply-chain-basic"
+  longDescription: "A basic Cartographer supply chain from code to image to deployment."
+  shortDescription: "From source code to deployment."
+  providerName: Neptunus Platform
+  maintainers:
+    - name: Thomas Vitale
+  categories:
+    - ci/cd

@@ -1,0 +1,25 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: Package
+metadata:
+  name: cartographer-supply-chain-basic.neptunus.thomasvitale.com.0.0.1
+spec:
+  refName: cartographer-supply-chain-basic.neptunus.thomasvitale.com
+  version: 0.0.1
+  releaseNotes: "Initial supply chain"
+  licenses:
+    - "Apache 2.0"
+  template:
+    spec:
+      fetch:
+        - imgpkgBundle:
+            image: ghcr.io/neptunus-platform/cartographer-supply-chain-basic@sha256:24f2f04fde44c2691f08618f99aa36bb81b9d800be9e2b510446eaedf9e1eca5
+      template:
+        - ytt:
+            paths:
+              - config/
+        - kbld:
+            paths:
+              - "-"
+              - .imgpkg/images.yml
+      deploy:
+      - kapp: {}

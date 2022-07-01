@@ -1,0 +1,13 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: PackageMetadata
+metadata:
+  name: cartographer-blueprints.neptunus.thomasvitale.com
+spec:
+  displayName: "cartographer-blueprints"
+  longDescription: "A collection of reusable Cartographer blueprints for designing paved paths to production."
+  shortDescription: "Collection of Cartographer blueprints."
+  providerName: Neptunus Platform
+  maintainers:
+    - name: Thomas Vitale
+  categories:
+    - ci/cd
