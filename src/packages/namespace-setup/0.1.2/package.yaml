@@ -1,0 +1,25 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: Package
+metadata:
+  name: namespace-setup.neptunus.thomasvitale.com.0.1.2
+spec:
+  refName: namespace-setup.neptunus.thomasvitale.com
+  version: 0.1.2
+  releaseNotes: "Initial namespace setup"
+  licenses:
+    - "Apache 2.0"
+  template:
+    spec:
+      fetch:
+        - imgpkgBundle:
+            image: ghcr.io/neptunus-platform/namespace-setup@sha256:c25599d5715f70251a7111d5429eaf101d9e4e184547dca05ff206a53eb3eef5
+      template:
+        - ytt:
+            paths:
+              - config/
+        - kbld:
+            paths:
+              - "-"
+              - .imgpkg/images.yml
+      deploy:
+      - kapp: {}

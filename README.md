@@ -35,8 +35,10 @@ in your Kubernetes cluster. If you're using [Tanzu Community Edition](https://ta
 kapp-controller is provided out-of-the-box. Otherwise, you can install it as follows.
 
   ```shell
-   kapp deploy -a kapp-controller -f https://github.com/vmware-tanzu/carvel-kapp-controller/releases/download/v0.38.3/release.yml --yes
-   ```
+  kapp deploy -a kapp-controller \
+    -f https://github.com/vmware-tanzu/carvel-kapp-controller/releases/latest/download/release.yml \
+    --yes
+  ```
 
 You'll also need the [`kctrl`](https://carvel.dev/kapp-controller/docs/latest/install/#installing-kapp-controller-cli-kctrl)
 CLI to manage Carvel packages in a convenient way.
@@ -47,7 +49,7 @@ You can install the Neptunus repository using `kctrl`:
 
    ```shell
    kctrl package repository add -r neptunus-package-repository \
-     --url ghcr.io/neptunus-platform/package-repository:0.6.6
+     --url ghcr.io/neptunus-platform/package-repository:0.6.7
    ```
 
 ## Documentation
