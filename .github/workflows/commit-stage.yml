@@ -4,7 +4,7 @@ on: workflow_dispatch
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  VERSION: 0.6.8
+  VERSION: 0.6.9
 
 jobs:
   build-and-publish:
