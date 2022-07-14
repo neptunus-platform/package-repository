@@ -9,9 +9,7 @@ This repository contains the following packages from the Neptunus Platform proje
 * [application-platform](https://github.com/neptunus-platform/application-platform)
 * [argo-cd](https://github.com/neptunus-platform/package-for-argo-cd)
 * [cartographer-blueprints](https://github.com/neptunus-platform/cartographer-blueprints)
-* cartographer-delivery-basic (soon)
 * [cartographer-supply-chain-basic](https://github.com/neptunus-platform/cartographer-supply-chain-basic)
-* cartographer-supply-chain-testing (soon)
 * [knative-eventing](https://github.com/neptunus-platform/package-for-knative-eventing)
 * [namespace-setup](https://github.com/neptunus-platform/namespace-setup)
 * [tekton-pipelines](https://github.com/neptunus-platform/package-for-tekton-pipelines)
@@ -49,7 +47,7 @@ You can install the Neptunus repository using `kctrl`:
 
    ```shell
    kctrl package repository add -r neptunus-package-repository \
-     --url ghcr.io/neptunus-platform/package-repository:0.6.9
+     --url ghcr.io/neptunus-platform/package-repository:0.6.10
    ```
 
 ## Documentation
