@@ -1,19 +1,18 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  name: application-platform.neptunus.thomasvitale.com.0.0.3
+  name: cartographer-blueprints.neptunus.thomasvitale.com.0.0.3
 spec:
-  refName: application-platform.neptunus.thomasvitale.com
+  refName: cartographer-blueprints.neptunus.thomasvitale.com
   version: 0.0.3
-  releaseNotes: "Initial platform configuration"
-  releasedAt: 2022-06-26T21:30:00Z
+  releaseNotes: "Initial collection of blueprints"
   licenses:
     - "Apache 2.0"
   template:
     spec:
       fetch:
         - imgpkgBundle:
-            image: ghcr.io/neptunus-platform/application-platform@sha256:ce910999c255777c9885120c9af296f75da7097a936d272f3185db7715fa9839
+            image: ghcr.io/neptunus-platform/cartographer-blueprints@sha256:e9185f36042c107629444a98c9f5cf7f3efbe8161fd5ebdf2d3612c003cf874f
       template:
         - ytt:
             paths:
