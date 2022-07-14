@@ -1,0 +1,25 @@
+apiVersion: data.packaging.carvel.dev/v1alpha1
+kind: Package
+metadata:
+  name: cartographer-blueprints.neptunus.thomasvitale.com.0.0.5
+spec:
+  refName: cartographer-blueprints.neptunus.thomasvitale.com
+  version: 0.0.5
+  releaseNotes: "Initial collection of blueprints"
+  licenses:
+    - "Apache 2.0"
+  template:
+    spec:
+      fetch:
+        - imgpkgBundle:
+            image: ghcr.io/neptunus-platform/cartographer-blueprints@sha256:540d3037df048f2d370f93bb57a8bfeab579890b3d8e01201182a2acdc94cc0c
+      template:
+        - ytt:
+            paths:
+              - config/
+        - kbld:
+            paths:
+              - "-"
+              - .imgpkg/images.yml
+      deploy:
+      - kapp: {}
