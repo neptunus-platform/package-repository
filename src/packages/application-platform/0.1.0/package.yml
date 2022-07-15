@@ -1,10 +1,10 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  name: application-platform.neptunus.thomasvitale.com.0.0.6
+  name: application-platform.neptunus.thomasvitale.com.0.1.0
 spec:
   refName: application-platform.neptunus.thomasvitale.com
-  version: 0.0.6
+  version: 0.1.0
   releaseNotes: "Initial platform configuration"
   releasedAt: 2022-06-26T21:30:00Z
   licenses:
@@ -13,7 +13,7 @@ spec:
     spec:
       fetch:
         - imgpkgBundle:
-            image: ghcr.io/neptunus-platform/application-platform@sha256:31b0dc8710faa773c04f9d71af3af101367dd7150e81b1583c2573ce3cfd2563
+            image: ghcr.io/neptunus-platform/application-platform@sha256:4e065e4781c7f5010aad99a21706abd73f230e479f1dd6dde11859c66df67799
       template:
         - ytt:
             paths:

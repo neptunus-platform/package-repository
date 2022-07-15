@@ -2,17 +2,8 @@
 apiVersion: imgpkg.carvel.dev/v1alpha1
 images:
 - annotations:
-    kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:31b0dc8710faa773c04f9d71af3af101367dd7150e81b1583c2573ce3cfd2563
-  image: ghcr.io/neptunus-platform/application-platform@sha256:31b0dc8710faa773c04f9d71af3af101367dd7150e81b1583c2573ce3cfd2563
-- annotations:
-    kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:4ab5fabd7f42770193c9130aa1cc9a4073dba944e89175e251650ee45a74efe6
-  image: ghcr.io/neptunus-platform/application-platform@sha256:4ab5fabd7f42770193c9130aa1cc9a4073dba944e89175e251650ee45a74efe6
-- annotations:
-    kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:b9ed9c80629a58941949489264fe9af999eadbd6d6f68a8a72565f8a7344f64e
-  image: ghcr.io/neptunus-platform/application-platform@sha256:b9ed9c80629a58941949489264fe9af999eadbd6d6f68a8a72565f8a7344f64e
-- annotations:
-    kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:c9ad4ecd39294327d55b8635409420d663c37b45484e94af80dec122f10d6dd5
-  image: ghcr.io/neptunus-platform/application-platform@sha256:c9ad4ecd39294327d55b8635409420d663c37b45484e94af80dec122f10d6dd5
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:4e065e4781c7f5010aad99a21706abd73f230e479f1dd6dde11859c66df67799
+  image: ghcr.io/neptunus-platform/application-platform@sha256:4e065e4781c7f5010aad99a21706abd73f230e479f1dd6dde11859c66df67799
 - annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:d4b12d2283b6d7b9f42cefaa1a335aeb48994536c241cb8359c55d232a8ef3be
   image: ghcr.io/neptunus-platform/application-platform@sha256:d4b12d2283b6d7b9f42cefaa1a335aeb48994536c241cb8359c55d232a8ef3be
