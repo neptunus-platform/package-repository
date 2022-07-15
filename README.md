@@ -47,7 +47,7 @@ You can install the Neptunus repository using `kctrl`:
 
    ```shell
    kctrl package repository add -r neptunus-package-repository \
-     --url ghcr.io/neptunus-platform/package-repository:0.7.1
+     --url ghcr.io/neptunus-platform/package-repository:0.7.2
    ```
 
 ## Documentation

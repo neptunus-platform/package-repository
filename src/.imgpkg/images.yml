@@ -5,6 +5,9 @@ images:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:4e065e4781c7f5010aad99a21706abd73f230e479f1dd6dde11859c66df67799
   image: ghcr.io/neptunus-platform/application-platform@sha256:4e065e4781c7f5010aad99a21706abd73f230e479f1dd6dde11859c66df67799
 - annotations:
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:c6d445cd6a0b0ed51f07dc2d424f32f73d524c6927394efef77eb797bfca5e38
+  image: ghcr.io/neptunus-platform/application-platform@sha256:c6d445cd6a0b0ed51f07dc2d424f32f73d524c6927394efef77eb797bfca5e38
+- annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/application-platform@sha256:d4b12d2283b6d7b9f42cefaa1a335aeb48994536c241cb8359c55d232a8ef3be
   image: ghcr.io/neptunus-platform/application-platform@sha256:d4b12d2283b6d7b9f42cefaa1a335aeb48994536c241cb8359c55d232a8ef3be
 - annotations:
@@ -46,6 +49,9 @@ images:
 - annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-argo-cd@sha256:65ebc906e08256c45eaf59801521f7e9752681ad422eda931289d437bda3bcc5
   image: ghcr.io/neptunus-platform/package-for-argo-cd@sha256:65ebc906e08256c45eaf59801521f7e9752681ad422eda931289d437bda3bcc5
+- annotations:
+    kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-argo-cd@sha256:872c0a2f5d7a99dddb3a18f3daebcfe88e46dd4537b13b1ba965ba4c4543fcd9
+  image: ghcr.io/neptunus-platform/package-for-argo-cd@sha256:872c0a2f5d7a99dddb3a18f3daebcfe88e46dd4537b13b1ba965ba4c4543fcd9
 - annotations:
     kbld.carvel.dev/id: ghcr.io/neptunus-platform/package-for-knative-eventing@sha256:b7b9001c8a0e507e7b72cafd069adee1f4853fef1f532dbe6b53019b568a7288
   image: ghcr.io/neptunus-platform/package-for-knative-eventing@sha256:b7b9001c8a0e507e7b72cafd069adee1f4853fef1f532dbe6b53019b568a7288
